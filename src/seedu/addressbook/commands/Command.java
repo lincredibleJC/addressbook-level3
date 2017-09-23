@@ -71,6 +71,12 @@ public abstract class Command {
         this.targetIndex = targetIndex;
     }
 
+
+    /**
+     * Returns a boolean to indicate whether the command mutates the stored addressBook data
+     *
+     * @return boolean from overriding method in subclass, false if subclass does not have an overriding method
+     */
     public boolean isMutating() {
         return false;
     }
