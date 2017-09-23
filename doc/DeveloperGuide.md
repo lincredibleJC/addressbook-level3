@@ -118,7 +118,7 @@ Use case ends
 
 5.b The user types enters something other than yes and no
 
-> 5a2. AddressBook will notify user of invalid input <br>
+> 5b1. AddressBook will notify user of invalid input <br>
   Use case resumes at step 4
 
 ## Appendix C : Non Functional Requirements
